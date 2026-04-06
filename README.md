@@ -1,61 +1,71 @@
 # Access-pdf-files-from-dropbox-and-load-them-using-xamarin-pdf-viewer
-This repository contains the sample that demonstrates accessing PDF files from Dropbox and load/save them easily using Xamarin PDF Viewer
+
+This repository contains a sample application that demonstrates how to access PDF files from Dropbox and load, view, and save them using the Xamarin PDF Viewer.
+
 ## Overview
-This repository contains a sample Xamarin application that demonstrates how to access PDF files from Dropbox and load, view, and save them using the Syncfusion Xamarin PDF Viewer. The project showcases a simple and effective way to integrate cloud-based PDF handling into mobile applications built with Xamarin.Forms.
-By using the Dropbox API along with Syncfusion’s high‑performance PDF Viewer, this sample enables developers to authenticate users, fetch PDF files stored in Dropbox, and render them directly inside the application using streams—without the need for complex local file management.
-#### Key Features
 
-Connect and authenticate with a Dropbox account
-Browse and select PDF documents stored in Dropbox
-Download PDF files as streams
-Load and display PDFs using Syncfusion Xamarin PDF Viewer
-Optional local saving of downloaded PDF files
-Supports Android and iOS platforms
-Simple, clean, and modular code structure
+This repository contains a Xamarin sample application that demonstrates how to access PDF files from Dropbox and load them into the Syncfusion Xamarin PDF Viewer. The sample highlights an effective approach for integrating cloud-based PDF handling into Xamarin.Forms applications.
 
-#### Technologies Used
+By using the Dropbox API along with the Syncfusion PDF Viewer, the application allows users to authenticate, retrieve PDF files stored in Dropbox, and render them directly within the app using streams. This approach avoids complex local file management and improves performance.
 
-Xamarin.Forms
-Syncfusion Xamarin PDF Viewer
-Dropbox API
-.NET Standard C#
+## Supported Platforms
 
-#### Prerequisites
-To run this sample successfully, make sure you have:
+The sample supports the following platforms:
 
-Visual Studio 2019 or later
-Xamarin.Forms workload installed
-A valid Syncfusion account and registered license
-Dropbox developer account
-Dropbox App Key / Access Token
-Android or iOS emulator (or physical device)
+- Android  
+- iOS  
+- UWP (Universal Windows Platform)
 
-#### Setup Instructions
+The PDF loading and viewing functionality is implemented consistently across all supported platforms.
 
-Clone or download this repository.
-Open the solution in Visual Studio.
-Restore all NuGet packages.
-Install the following package if not already included:
+## Key Features
 
-Syncfusion.Xamarin.SfPdfViewer
+- Authenticating users with a Dropbox account  
+- Browsing and selecting PDF documents from Dropbox  
+- Downloading PDF files as streams  
+- Loading and displaying PDFs using the Xamarin PDF Viewer  
+- Optionally saving downloaded PDF files locally  
+- Clean and modular application structure  
 
+## Technologies Used
 
-Register the Syncfusion license during app initialization.
-Configure Dropbox credentials in the appropriate service or helper class.
-Build and run the project on Android or iOS.
+- Xamarin.Forms  
+- Syncfusion Xamarin PDF Viewer  
+- Dropbox API  
+- .NET Standard C#  
 
-#### How It Works
-The application connects to Dropbox and retrieves selected PDF files as streams. These streams are then passed directly to the Syncfusion PDF Viewer control, which efficiently renders the document within the app. This approach avoids unnecessary file system operations and improves performance while keeping cloud documents secure.
-Use Cases
+## Prerequisites
 
-Cloud‑based PDF reader applications
-Enterprise document access and review apps
-Legal, medical, or financial document viewers
-Educational apps with cloud‑stored learning materials
+To run this sample successfully, ensure you have the following:
 
-#### Reference
+- Visual Studio 2019 or later  
+- Xamarin.Forms workload installed  
+- A valid Syncfusion account with a registered license  
+- Dropbox developer account and credentials  
+- Android, iOS, or UWP development environment  
 
-[Syncfusion Xamarin PDF Viewer Documentation](https://help.syncfusion.com/xamarin/pdf-viewer/overview)
+## Setup Instructions
 
-### Conclusion
-This sample demonstrates a practical and scalable approach for integrating cloud‑hosted PDF documents into Xamarin applications. By combining Dropbox cloud storage with the Syncfusion Xamarin PDF Viewer, developers can build modern, secure, and user‑friendly PDF viewing experiences. The project serves as a strong foundation that can be extended further with features such as annotation, search, bookmarking, and offline access based on application requirements.
+1. Clone or download the repository.
+2. Open the solution in Visual Studio.
+3. Restore all NuGet packages.
+4. Register the Syncfusion license during application initialization.
+5. Configure Dropbox credentials in the appropriate service or helper class.
+6. Build and run the project on the desired platform.
+
+## How It Works
+
+The application connects to Dropbox and retrieves selected PDF files as streams. These streams are passed directly to the Xamarin PDF Viewer, which renders the documents efficiently within the application. This design minimizes file system usage while ensuring secure handling of cloud-based documents.
+
+## Use Cases
+
+- Cloud-based PDF reader applications  
+- Enterprise document access and review systems  
+- Legal, medical, or financial document viewers  
+- Educational applications using cloud-stored materials  
+
+## Conclusion
+
+This sample demonstrates a practical and scalable approach for integrating cloud-hosted PDF documents into Xamarin applications. By combining Dropbox storage with the Xamarin PDF Viewer, developers can build secure and user-friendly PDF viewing experiences that work consistently across platforms.
+
+For more details, refer to the official Syncfusion [documentation](https://help.syncfusion.com/document-processing/pdf/pdf-viewer/xamarin/overview) and [API reference](https://help.syncfusion.com/cr/xamarin/Syncfusion.SfPdfViewer.XForms.html).
